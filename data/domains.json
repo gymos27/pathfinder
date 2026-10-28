@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "web-dev",
+    "slug": "web-dev",
+    "name": "Web Development",
+    "icon": "Code2",
+    "badge": "Highest Job Volume",
+    "shortDescription": "Master modern full-stack web applications from responsive interfaces to cloud-deployed APIs.",
+    "fullDescription": "Web Development spans client-side interactivity, server-side business logic, database management, and cloud deployment. This path takes you from basic web markup to enterprise-ready Next.js, Node.js, and relational database systems.",
+    "averageSalary": "$118,000 / yr",
+    "growthRate": "+15% YoY",
+    "difficulty": "Beginner Friendly",
+    "typicalRoles": [
+      "Frontend Developer",
+      "Full Stack Engineer",
+      "React/Next.js Specialist",
+      "Web Applications Engineer"
+    ],
+    "totalEstimatedHours": 180,
+    "stages": [
+      {
+        "stageNumber": 1,
+        "title": "Web Foundations & Responsive Design",
+        "level": "Beginner",
+        "estimatedHours": 35,
+        "description": "Establish a bulletproof foundation in semantic HTML, modern CSS layouts (Flexbox & Grid), and core JavaScript fundamentals.",
+        "orderedSkills": [
+          {
+            "id": "wd-html-css",
+            "name": "HTML5 & Semantic Markup",
+            "description": "Accessibility standards, semantic layout tags, SEO meta structure, and modern DOM hierarchy.",
+            "estimatedHours": 6,
+            "difficulty": "Beginner",
+            "keyTopics": ["Semantic elements", "Accessibility (a11y)", "Forms & validation", "SEO basics"],
+            "resources": [
+              { "title": "MDN HTML Guide", "type": "Docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML" }
+            ]
+          },
+          {
+            "id": "wd-css-layout",
+            "name": "Modern CSS & Flexbox/Grid",
+            "description": "Fluid layouts, responsive breakpoints, CSS Grid, Flexbox alignment, and utility-first styling.",
+            "estimatedHours": 10,
+            "difficulty": "Beginner",
+            "keyTopics": ["Flexbox", "CSS Grid", "Media queries", "CSS Variables", "Tailwind CSS"],
+            "resources": [
+              { "title": "CSS Tricks Flexbox Guide", "type": "Docs", "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" }
+            ]
+          },
+          {
+            "id": "wd-js-basics",
+            "name": "JavaScript ES6+ Core",
+            "description": "Data types, closures, array methods (map, filter, reduce), async/await, and DOM manipulation.",
+            "estimatedHours": 14,
+            "difficulty": "Beginner",
+            "keyTopics": ["Variables & Scope", "Promises & Async/Await", "Array transformations", "DOM events"],
+            "resources": [
+              { "title": "JavaScript.info", "type": "Interactive", "url": "https://javascript.info/" }
+            ]
+          },
+          {
+            "id": "wd-git",
+            "name": "Git & GitHub Version Control",
+            "description": "Branching workflows, commits, pull requests, merge conflict resolution, and collaborative repo practices.",
+            "estimatedHours": 5,
+            "difficulty": "Beginner",
+            "keyTopics": ["git init/clone", "branching & PRs", "merge conflicts", "GitHub actions intro"],
+            "resources": [
+              { "title": "GitHub Skills", "type": "Interactive", "url": "https://skills.github.com/" }
+            ]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-wd-1",
+            "title": "Responsive Developer Portfolio & Showcase",
+            "description": "Build and deploy an accessible, dark-mode personal portfolio with responsive CSS Grid layouts and dynamic contact form handling.",
+            "difficulty": "Beginner",
+            "deliverables": ["Mobile-first layout", "Theme toggle (dark/light)", "Accessible forms", "Live Vercel/GitHub Pages URL"],
+            "skillsApplied": ["HTML5 & Semantic Markup", "Modern CSS & Flexbox/Grid", "JavaScript ES6+ Core", "Git & GitHub Version Control"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 2,
+        "title": "Frontend Frameworks & State Management",
+        "level": "Intermediate",
+        "estimatedHours": 45,
+        "description": "Build high-performance client applications using React, Next.js App Router, TypeScript, and state management patterns.",
+        "orderedSkills": [
+          {
+            "id": "wd-typescript",
+            "name": "TypeScript Essentials",
+            "description": "Static typing, interfaces, generics, type narrowing, and typing React props and API responses.",
+            "estimatedHours": 10,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Generics", "Type unions & intersections", "Zod validation", "React TypeScript hooks"],
+            "resources": [
+              { "title": "TypeScript Handbook", "type": "Docs", "url": "https://www.typescriptlang.org/docs/handbook/" }
+            ]
+          },
+          {
+            "id": "wd-react",
+            "name": "React 19 Components & Hooks",
+            "description": "Virtual DOM, state, effect hooks, context API, custom hooks, and component lifecycle best practices.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["useState & useEffect", "Custom hooks", "Context API", "Component composition"],
+            "resources": [
+              { "title": "React Official Docs", "type": "Docs", "url": "https://react.dev/" }
+            ]
+          },
+          {
+            "id": "wd-nextjs",
+            "name": "Next.js App Router & Server Components",
+            "description": "Server-side rendering, Server Actions, dynamic routes, route handlers, caching, and streaming UI.",
+            "estimatedHours": 17,
+            "difficulty": "Intermediate",
+            "keyTopics": ["App Router", "RSC vs Client components", "Server Actions", "Route Handlers"],
+            "resources": [
+              { "title": "Next.js Learn", "type": "Course", "url": "https://nextjs.org/learn" }
+            ]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-wd-2",
+            "title": "Interactive Productivity Dashboard with Real-time Filters",
+            "description": "Create a multi-tab SaaS dashboard with live data visualizations, optimistic UI updates, and TypeScript type safety.",
+            "difficulty": "Intermediate",
+            "deliverables": ["TypeScript typing", "Dynamic client filters & search", "Local storage state sync", "Component library"],
+            "skillsApplied": ["TypeScript Essentials", "React 19 Components & Hooks", "Next.js App Router & Server Components"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 3,
+        "title": "Backend Engineering, Databases & APIs",
+        "level": "Intermediate",
+        "estimatedHours": 50,
+        "description": "Design secure RESTful and GraphQL APIs, integrate relational databases with Prisma/Drizzle, and implement authentication.",
+        "orderedSkills": [
+          {
+            "id": "wd-node-api",
+            "name": "Node.js & REST API Architecture",
+            "description": "Event loop, Express/Next API routes, HTTP status codes, middleware, rate limiting, and CORS.",
+            "estimatedHours": 14,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Middleware", "JWT authentication", "Request validation", "Error handling"],
+            "resources": [
+              { "title": "Node.js Best Practices", "type": "Docs", "url": "https://github.com/goldbergyoni/nodebestpractices" }
+            ]
+          },
+          {
+            "id": "wd-sql-db",
+            "name": "PostgreSQL & Prisma/Drizzle ORM",
+            "description": "Relational schema design, indexes, joins, migrations, transactions, and ORM query optimization.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["PostgreSQL", "Database migrations", "Indexes & Foreign Keys", "Prisma / Drizzle"],
+            "resources": [
+              { "title": "Prisma Documentation", "type": "Docs", "url": "https://www.prisma.io/docs" }
+            ]
+          },
+          {
+            "id": "wd-auth-sec",
+            "name": "Auth & Web Security Standards",
+            "description": "OAuth 2.0, NextAuth/Clerk, CSRF protection, secure cookie handling, and OWASP Top 10 web vulnerabilities.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["OAuth & Session tokens", "Hashing with bcrypt", "OWASP mitigation", "Role-based access control"],
+            "resources": [
+              { "title": "OWASP Top Ten", "type": "Docs", "url": "https://owasp.org/www-project-top-ten/" }
+            ]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-wd-3",
+            "title": "Full-Stack Collaborative Marketplace with Auth",
+            "description": "Build an end-to-end e-commerce or booking platform featuring user authentication, database persistence, and payment webhooks.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Authenticated routes", "Relational database schema", "CRUD API endpoints", "Cart & checkout flow"],
+            "skillsApplied": ["Node.js & REST API Architecture", "PostgreSQL & Prisma/Drizzle ORM", "Auth & Web Security Standards"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 4,
+        "title": "Full-Stack Mastery, CI/CD & Cloud Deployment",
+        "level": "Advanced",
+        "estimatedHours": 50,
+        "description": "Optimize web vitals, implement CI/CD deployment pipelines, containerize with Docker, and build microservices.",
+        "orderedSkills": [
+          {
+            "id": "wd-docker-ci",
+            "name": "Docker & GitHub Actions CI/CD",
+            "description": "Containerizing web services, multi-stage Docker builds, automated testing pipelines, and cloud deploys.",
+            "estimatedHours": 18,
+            "difficulty": "Advanced",
+            "keyTopics": ["Dockerfile optimization", "Docker Compose", "CI automated testing", "Automated deployment"],
+            "resources": [
+              { "title": "Docker Official Docs", "type": "Docs", "url": "https://docs.docker.com/" }
+            ]
+          },
+          {
+            "id": "wd-performance",
+            "name": "Web Vitals & Performance Optimization",
+            "description": "Core Web Vitals (LCP, FID, CLS), dynamic imports, edge caching, bundle analysis, and image optimization.",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["Lighthouse auditing", "Bundle splitting", "Edge middleware", "CDN caching"],
+            "resources": [
+              { "title": "web.dev Vitals Guide", "type": "Docs", "url": "https://web.dev/vitals/" }
+            ]
+          },
+          {
+            "id": "wd-testing",
+            "name": "Automated Testing (Playwright & Vitest)",
+            "description": "Unit testing React components, mocking API endpoints, and end-to-end browser integration testing.",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["Unit tests with Vitest", "E2E testing with Playwright", "Test coverage reports", "Regression testing"],
+            "resources": [
+              { "title": "Playwright Testing Docs", "type": "Docs", "url": "https://playwright.dev/" }
+            ]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-wd-4",
+            "title": "Enterprise Micro-SaaS Platform with Real-Time WebSockets",
+            "description": "Deploy a multi-tenant platform with Docker, continuous deployment on Vercel/AWS, 98+ Lighthouse score, and end-to-end test suite.",
+            "difficulty": "Advanced",
+            "deliverables": ["Dockerized setup", "GitHub Actions pipeline", "E2E Playwright test suite", "Web vitals >95"],
+            "skillsApplied": ["Docker & GitHub Actions CI/CD", "Web Vitals & Performance Optimization", "Automated Testing (Playwright & Vitest)"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-science",
+    "slug": "data-science",
+    "name": "Data Science",
+    "icon": "Database",
+    "badge": "High Industry Value",
+    "shortDescription": "Extract actionable business insights, uncover hidden patterns, and build predictive statistical models.",
+    "fullDescription": "Data Science equips you to transform raw, noisy datasets into high-impact business decisions and predictive analytics using Python, SQL, statistical modeling, and machine learning pipelines.",
+    "averageSalary": "$124,000 / yr",
+    "growthRate": "+22% YoY",
+    "difficulty": "Intermediate",
+    "typicalRoles": [
+      "Data Scientist",
+      "Data Analyst",
+      "Business Intelligence Engineer",
+      "Quantitative Analyst"
+    ],
+    "totalEstimatedHours": 190,
+    "stages": [
+      {
+        "stageNumber": 1,
+        "title": "Python for Data & Mathematical Foundations",
+        "level": "Beginner",
+        "estimatedHours": 40,
+        "description": "Master core Python programming, vector math, descriptive statistics, and probability theory.",
+        "orderedSkills": [
+          {
+            "id": "ds-python-core",
+            "name": "Python Programming & Data Structures",
+            "description": "Python syntax, lists, dictionaries, list comprehensions, functional programming, and file I/O.",
+            "estimatedHours": 10,
+            "difficulty": "Beginner",
+            "keyTopics": ["Object-oriented Python", "Data manipulation", "File handling", "Clean code practices"],
+            "resources": [{ "title": "Real Python", "type": "Course", "url": "https://realpython.com/" }]
+          },
+          {
+            "id": "ds-numpy-pandas",
+            "name": "NumPy & Pandas Data Wrangling",
+            "description": "Array slicing, vectorization, DataFrame aggregation, groupby operations, handling missing data, and merging.",
+            "estimatedHours": 15,
+            "difficulty": "Beginner",
+            "keyTopics": ["Vectorized computations", "Data cleaning & imputation", "GroupBy & Pivot tables", "Time-series handling"],
+            "resources": [{ "title": "Pandas Documentation", "type": "Docs", "url": "https://pandas.pydata.org/" }]
+          },
+          {
+            "id": "ds-stats-prob",
+            "name": "Applied Statistics & Probability",
+            "description": "Distributions, hypothesis testing (t-test, ANOVA), p-values, confidence intervals, and correlation vs causation.",
+            "estimatedHours": 15,
+            "difficulty": "Beginner",
+            "keyTopics": ["Normal distributions", "Hypothesis testing", "A/B testing theory", "Bayesian vs Frequentist"],
+            "resources": [{ "title": "StatQuest with Josh Starmer", "type": "Course", "url": "https://statquest.org/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ds-1",
+            "title": "Global Economic & Climate Trend Exploratory Analysis",
+            "description": "Analyze multi-year historical indicators, clean dirty tabular records, and present statistical conclusions with Jupyter Notebook.",
+            "difficulty": "Beginner",
+            "deliverables": ["Cleaned data pipeline", "Statistical summary report", "Distribution plots", "GitHub repository"],
+            "skillsApplied": ["Python Programming & Data Structures", "NumPy & Pandas Data Wrangling", "Applied Statistics & Probability"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 2,
+        "title": "SQL Databases & Exploratory Data Analysis (EDA)",
+        "level": "Intermediate",
+        "estimatedHours": 45,
+        "description": "Write advanced SQL queries, build interactive dashboards, and convey compelling data narratives.",
+        "orderedSkills": [
+          {
+            "id": "ds-advanced-sql",
+            "name": "Advanced SQL & Window Functions",
+            "description": "CTEs, window functions (ROW_NUMBER, RANK, LEAD/LAG), subqueries, and query performance tuning.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Window functions", "Common Table Expressions", "Query execution plans", "Data aggregation"],
+            "resources": [{ "title": "Mode Analytics SQL Tutorial", "type": "Interactive", "url": "https://mode.com/sql-tutorial/" }]
+          },
+          {
+            "id": "ds-dataviz",
+            "name": "Data Visualization (Matplotlib, Seaborn & Plotly)",
+            "description": "Creating impactful charts, heatmaps, interactive scatter plots, and visual storytelling standards.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Plotly dashboards", "Seaborn styling", "Visual encoding", "Information hierarchy"],
+            "resources": [{ "title": "Plotly Python Docs", "type": "Docs", "url": "https://plotly.com/python/" }]
+          },
+          {
+            "id": "ds-feature-eng",
+            "name": "Feature Engineering & Preprocessing",
+            "description": "One-hot encoding, feature scaling (StandardScaler, MinMaxScaler), outlier removal, and dimensionality reduction (PCA).",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Categorical encoding", "Scaling & Normalization", "Principal Component Analysis", "Feature selection"],
+            "resources": [{ "title": "Scikit-Learn Preprocessing", "type": "Docs", "url": "https://scikit-learn.org/stable/modules/preprocessing.html" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ds-2",
+            "title": "Interactive Customer Churn Analysis & Dashboard",
+            "description": "Extract raw customer telecommunications data using complex SQL queries and build an interactive Plotly dashboard identifying churn drivers.",
+            "difficulty": "Intermediate",
+            "deliverables": ["SQL schema & query scripts", "Interactive web dashboard", "Feature importance breakdown", "Executive slide deck"],
+            "skillsApplied": ["Advanced SQL & Window Functions", "Data Visualization (Matplotlib, Seaborn & Plotly)", "Feature Engineering & Preprocessing"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 3,
+        "title": "Machine Learning & Predictive Modeling",
+        "level": "Intermediate",
+        "estimatedHours": 55,
+        "description": "Train, tune, and evaluate classical machine learning algorithms with Scikit-Learn and XGBoost.",
+        "orderedSkills": [
+          {
+            "id": "ds-supervised-ml",
+            "name": "Supervised Learning (Regression & Classification)",
+            "description": "Linear/Logistic regression, Random Forests, XGBoost, LightGBM, and hyperparameter tuning with GridSearchCV.",
+            "estimatedHours": 20,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Linear & Logistic Regression", "Ensemble methods (Random Forest, XGBoost)", "Cross-validation", "Evaluation metrics (ROC-AUC, F1, RMSE)"],
+            "resources": [{ "title": "Scikit-learn Documentation", "type": "Docs", "url": "https://scikit-learn.org/" }]
+          },
+          {
+            "id": "ds-unsupervised-ml",
+            "name": "Unsupervised Learning & Clustering",
+            "description": "K-Means, DBSCAN clustering, anomaly detection, customer segmentation, and association rule mining.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["K-Means clustering", "DBSCAN", "Silhouette scores", "Anomaly detection"],
+            "resources": [{ "title": "Hands-On ML with Scikit-Learn & TF", "type": "Course", "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/" }]
+          },
+          {
+            "id": "ds-model-eval",
+            "name": "Model Evaluation, Bias & Drift",
+            "description": "Overfitting/Underfitting diagnostics, data drift monitoring, confusion matrices, and fairness in algorithmic predictions.",
+            "estimatedHours": 20,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Bias-Variance tradeoff", "Precision vs Recall tradeoff", "Model explainability (SHAP & LIME)", "Data drift detection"],
+            "resources": [{ "title": "SHAP Documentation", "type": "Docs", "url": "https://shap.readthedocs.io/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ds-3",
+            "title": "Real Estate Valuation & Investment Return Predictor",
+            "description": "Train an ensemble Gradient Boosted model to predict housing prices with explainable SHAP values and automated cross-validation.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Trained XGBoost model", "SHAP summary plots", "Streamlit demo app", "Model benchmark report"],
+            "skillsApplied": ["Supervised Learning (Regression & Classification)", "Unsupervised Learning & Clustering", "Model Evaluation, Bias & Drift"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 4,
+        "title": "Production Deployment & Big Data Systems",
+        "level": "Advanced",
+        "estimatedHours": 50,
+        "description": "Deploy machine learning models as production REST APIs, automate retraining pipelines, and work with Spark.",
+        "orderedSkills": [
+          {
+            "id": "ds-model-serving",
+            "name": "FastAPI & Model Serving",
+            "description": "Packaging models with pickle/ONNX, serving predictions via asynchronous FastAPI endpoints, and schema validation with Pydantic.",
+            "estimatedHours": 18,
+            "difficulty": "Advanced",
+            "keyTopics": ["FastAPI", "Pydantic validation", "ONNX runtime", "Async inference"],
+            "resources": [{ "title": "FastAPI Documentation", "type": "Docs", "url": "https://fastapi.tiangolo.com/" }]
+          },
+          {
+            "id": "ds-big-data",
+            "name": "Apache Spark & Distributed Computing",
+            "description": "PySpark DataFrames, parallel computing architectures, distributed joins, and processing gigabyte-scale datasets.",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["PySpark", "Resilient Distributed Datasets (RDDs)", "Distributed caching", "Spark SQL"],
+            "resources": [{ "title": "Apache Spark Quick Start", "type": "Docs", "url": "https://spark.apache.org/docs/latest/quick-start.html" }]
+          },
+          {
+            "id": "ds-mlops-intro",
+            "name": "MLflow & Experiment Tracking",
+            "description": "Tracking model experiments, parameter versioning, artifact storage, and model registry lifecycle management.",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["MLflow tracking", "Artifact storage", "Model staging & promotion", "Automated pipeline triggers"],
+            "resources": [{ "title": "MLflow Documentation", "type": "Docs", "url": "https://mlflow.org/docs/latest/index.html" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ds-4",
+            "title": "End-to-End Credit Default Scoring API with MLflow",
+            "description": "Deploy a containerized FastAPI risk assessment service tracked with MLflow, featuring real-time prediction endpoints and automated drift checks.",
+            "difficulty": "Advanced",
+            "deliverables": ["Dockerized FastAPI service", "MLflow experiment dashboard", "Automated regression tests", "Swagger documentation"],
+            "skillsApplied": ["FastAPI & Model Serving", "Apache Spark & Distributed Computing", "MLflow & Experiment Tracking"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-ml",
+    "slug": "ai-ml",
+    "name": "AI & Machine Learning",
+    "icon": "Brain",
+    "badge": "Frontier Tech",
+    "shortDescription": "Pioneer the next wave of intelligence: deep learning, transformer architectures, LLMs, and autonomous agents.",
+    "fullDescription": "Artificial Intelligence & Deep Learning is shaping every industry. This comprehensive path takes you from neural network foundations to PyTorch, Transformer attention mechanisms, fine-tuning LLMs, and multi-agent systems.",
+    "averageSalary": "$145,000 / yr",
+    "growthRate": "+38% YoY",
+    "difficulty": "Challenging",
+    "typicalRoles": [
+      "AI Engineer",
+      "Machine Learning Engineer",
+      "LLM Solutions Architect",
+      "Computer Vision / NLP Specialist"
+    ],
+    "totalEstimatedHours": 210,
+    "stages": [
+      {
+        "stageNumber": 1,
+        "title": "Mathematical Foundations & Neural Basics",
+        "level": "Beginner",
+        "estimatedHours": 45,
+        "description": "Master linear algebra, matrix calculus, gradient descent optimization, and building a perceptron from scratch.",
+        "orderedSkills": [
+          {
+            "id": "ai-math-foundations",
+            "name": "Linear Algebra & Vector Calculus",
+            "description": "Matrix transformations, eigenvalues/eigenvectors, partial derivatives, and Jacobian/Hessian matrices.",
+            "estimatedHours": 15,
+            "difficulty": "Beginner",
+            "keyTopics": ["Matrix multiplication", "Eigenvalues", "Gradients & chain rule", "Tensors in n-dimensions"],
+            "resources": [{ "title": "3Blue1Brown Essence of Linear Algebra", "type": "Course", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" }]
+          },
+          {
+            "id": "ai-gradient-descent",
+            "name": "Loss Functions & Optimization",
+            "description": "Cross-entropy loss, MSE, Stochastic Gradient Descent (SGD), Momentum, and Adam optimizer dynamics.",
+            "estimatedHours": 15,
+            "difficulty": "Beginner",
+            "keyTopics": ["Gradient descent", "Adam & RMSprop", "Learning rate schedules", "Vanishing/exploding gradients"],
+            "resources": [{ "title": "Distill.pub Neural Networks", "type": "Docs", "url": "https://distill.pub/" }]
+          },
+          {
+            "id": "ai-nn-from-scratch",
+            "name": "Neural Networks from Scratch (Python)",
+            "description": "Implement forward pass, backward propagation, activation functions (ReLU, Sigmoid, Softmax) using pure NumPy.",
+            "estimatedHours": 15,
+            "difficulty": "Beginner",
+            "keyTopics": ["Backpropagation implementation", "Activation functions", "Loss calculation", "Weight initialization"],
+            "resources": [{ "title": "Andrej Karpathy: Micrograd", "type": "Course", "url": "https://github.com/karpathy/micrograd" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ai-1",
+            "title": "Zero-Dependency Multi-Layer Perceptron (Micrograd Clone)",
+            "description": "Write a lightweight autograd engine in pure Python that trains a two-layer neural net to solve non-linear classification boundaries.",
+            "difficulty": "Beginner",
+            "deliverables": ["Custom Tensor/Scalar class", "Backprop chain rule engine", "Training loss curve graphs", "Interactive test script"],
+            "skillsApplied": ["Linear Algebra & Vector Calculus", "Loss Functions & Optimization", "Neural Networks from Scratch (Python)"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 2,
+        "title": "Deep Learning with PyTorch",
+        "level": "Intermediate",
+        "estimatedHours": 55,
+        "description": "Build, train, and validate modern deep neural networks with PyTorch, CUDA acceleration, and Computer Vision.",
+        "orderedSkills": [
+          {
+            "id": "ai-pytorch-core",
+            "name": "PyTorch Architecture & Tensors",
+            "description": "nn.Module, autograd, Dataset/DataLoader pipelines, GPU memory management, and training loops.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["nn.Module inheritance", "DataLoader & Dataset", "GPU acceleration (CUDA)", "Model checkpoints"],
+            "resources": [{ "title": "PyTorch Official Tutorials", "type": "Docs", "url": "https://pytorch.org/tutorials/" }]
+          },
+          {
+            "id": "ai-cnns",
+            "name": "Convolutional Neural Networks (CNNs)",
+            "description": "Kernels, pooling, ResNet residual blocks, transfer learning with ImageNet weights, and data augmentation.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Convolution operations", "Residual connections", "Transfer learning", "Object classification"],
+            "resources": [{ "title": "CS231n Stanford Vision", "type": "Course", "url": "http://cs231n.stanford.edu/" }]
+          },
+          {
+            "id": "ai-rnns-attention",
+            "name": "Sequence Models & Attention Mechanisms",
+            "description": "LSTMs, GRUs, seq2seq models, and the seminal Scaled Dot-Product Self-Attention mechanism.",
+            "estimatedHours": 19,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Self-attention equations", "Query, Key, Value vectors", "Multi-head attention", "Positional embeddings"],
+            "resources": [{ "title": "The Illustrated Transformer", "type": "Docs", "url": "https://jalammar.github.io/illustrated-transformer/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ai-2",
+            "title": "Custom Medical Imaging Classifier with ResNet Transfer Learning",
+            "description": "Fine-tune a pretrained ResNet-50 vision model to classify medical chest X-rays with data augmentation and Grad-CAM explainability heatmaps.",
+            "difficulty": "Intermediate",
+            "deliverables": ["PyTorch training script", "Grad-CAM visualizer", "F1 & Precision benchmarks", "Inference CLI"],
+            "skillsApplied": ["PyTorch Architecture & Tensors", "Convolutional Neural Networks (CNNs)", "Sequence Models & Attention Mechanisms"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 3,
+        "title": "Generative AI, Transformers & LLM Engineering",
+        "level": "Intermediate",
+        "estimatedHours": 55,
+        "description": "Master transformer architectures, prompt engineering, Hugging Face ecosystem, RAG systems, and vector databases.",
+        "orderedSkills": [
+          {
+            "id": "ai-transformers",
+            "name": "Hugging Face & Transformer Models",
+            "description": "Tokenizer pipelines, BERT, GPT architectures, text generation strategies (top-p, temperature), and pipeline APIs.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Hugging Face Transformers", "Tokenizers (BPE, WordPiece)", "Inference generation parameters", "Pre-trained checkpoints"],
+            "resources": [{ "title": "Hugging Face NLP Course", "type": "Course", "url": "https://huggingface.co/learn/nlp-course/" }]
+          },
+          {
+            "id": "ai-rag-vectordb",
+            "name": "Retrieval-Augmented Generation (RAG) & Vector DBs",
+            "description": "Dense embeddings, chunking strategies, vector search (Chroma, Pinecone, FAISS), and hybrid retrieval with rerankers.",
+            "estimatedHours": 20,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Text chunking & overlap", "Vector similarity (cosine, dot)", "ChromaDB / Pinecone", "Context injection"],
+            "resources": [{ "title": "LangChain / LlamaIndex Docs", "type": "Docs", "url": "https://docs.langchain.com/" }]
+          },
+          {
+            "id": "ai-prompt-eval",
+            "name": "Advanced Prompt Engineering & Guardrails",
+            "description": "Few-shot prompting, Chain-of-Thought (CoT), structured JSON schema outputs, and semantic evaluation with RAGAS.",
+            "estimatedHours": 17,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Chain-of-Thought", "Structured outputs", "Hallucination mitigation", "Guardrails & safety"],
+            "resources": [{ "title": "Learn Prompting", "type": "Interactive", "url": "https://learnprompting.org/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ai-3",
+            "title": "Enterprise Knowledge-Base RAG Assistant with Gemini",
+            "description": "Build an intelligent Q&A engine that ingests company PDF manuals into vector storage and returns grounded answers with exact source citations.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Document ingestion pipeline", "Vector store integration", "Gemini API answer synthesis", "Source attribution UI"],
+            "skillsApplied": ["Hugging Face & Transformer Models", "Retrieval-Augmented Generation (RAG) & Vector DBs", "Advanced Prompt Engineering & Guardrails"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 4,
+        "title": "LLM Fine-Tuning, Multi-Agent Systems & Deployment",
+        "level": "Advanced",
+        "estimatedHours": 55,
+        "description": "Fine-tune models with LoRA/QLoRA, build autonomous multi-agent systems, and deploy scalable inference engines.",
+        "orderedSkills": [
+          {
+            "id": "ai-finetuning",
+            "name": "Parameter-Efficient Fine-Tuning (PEFT / LoRA)",
+            "description": "QLoRA 4-bit quantization, instruction datasets formatting, SFTTrainer, adapter merging, and evaluation.",
+            "estimatedHours": 20,
+            "difficulty": "Advanced",
+            "keyTopics": ["LoRA & QLoRA", "4-bit/8-bit Quantization", "Instruction dataset curation", "Adapter deployment"],
+            "resources": [{ "title": "Hugging Face PEFT Docs", "type": "Docs", "url": "https://huggingface.co/docs/peft/" }]
+          },
+          {
+            "id": "ai-agents",
+            "name": "Autonomous Agent Systems (Function Calling & Tools)",
+            "description": "ReAct prompting, tool execution, multi-agent coordination, memory buffers, and autonomous workflows.",
+            "estimatedHours": 18,
+            "difficulty": "Advanced",
+            "keyTopics": ["Function calling / Tool use", "ReAct loop (Thought/Action/Observation)", "Agent state machines", "Self-correction"],
+            "resources": [{ "title": "Anthropic & Google Agent Guides", "type": "Docs", "url": "https://docs.anthropic.com/en/docs/agents-and-tools" }]
+          },
+          {
+            "id": "ai-llmops",
+            "name": "LLMOps, vLLM & Production Serving",
+            "description": "High-throughput serving with vLLM, PagedAttention, streaming token responses, latency monitoring, and cost optimization.",
+            "estimatedHours": 17,
+            "difficulty": "Advanced",
+            "keyTopics": ["vLLM & PagedAttention", "Token throughput metrics", "Streaming WebSockets", "Latency optimization"],
+            "resources": [{ "title": "vLLM Documentation", "type": "Docs", "url": "https://docs.vllm.ai/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ai-4",
+            "title": "Autonomous Financial Analyst Multi-Agent Swarm",
+            "description": "Deploy a cooperative multi-agent system where a Research Agent, Calculation Agent, and Auditor Agent collaborate to analyze SEC filings.",
+            "difficulty": "Advanced",
+            "deliverables": ["Multi-agent orchestrator", "Real-time tool execution logs", "Automated PDF summary report", "Interactive web dashboard"],
+            "skillsApplied": ["Parameter-Efficient Fine-Tuning (PEFT / LoRA)", "Autonomous Agent Systems (Function Calling & Tools)", "LLMOps, vLLM & Production Serving"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "icon": "ShieldCheck",
+    "badge": "Critical Security Need",
+    "shortDescription": "Protect digital infrastructure, conduct penetration testing, and defend against advanced cyber threats.",
+    "fullDescription": "Cybersecurity covers defensive (Blue Team) monitoring, offensive (Red Team) penetration testing, network defense, threat intelligence, and cloud application security.",
+    "averageSalary": "$126,000 / yr",
+    "growthRate": "+28% YoY",
+    "difficulty": "Intermediate",
+    "typicalRoles": [
+      "Security Analyst (SOC)",
+      "Penetration Tester",
+      "Application Security Engineer",
+      "Information Security Specialist"
+    ],
+    "totalEstimatedHours": 185,
+    "stages": [
+      {
+        "stageNumber": 1,
+        "title": "Networking Fundamentals & Operating Systems",
+        "level": "Beginner",
+        "estimatedHours": 40,
+        "description": "Master TCP/IP protocols, packet analysis with Wireshark, Linux administration, and cryptography basics.",
+        "orderedSkills": [
+          {
+            "id": "cy-networking",
+            "name": "TCP/IP & Network Protocols",
+            "description": "OSI 7-layer model, subnetting, DNS, DHCP, HTTP/S, SSL/TLS handshakes, and packet analysis.",
+            "estimatedHours": 14,
+            "difficulty": "Beginner",
+            "keyTopics": ["OSI & TCP/IP stack", "IPv4/IPv6 Subnetting", "DNS & ARP mechanics", "Wireshark packet captures"],
+            "resources": [{ "title": "Professor Messer Network+", "type": "Course", "url": "https://www.professormesser.com/" }]
+          },
+          {
+            "id": "cy-linux-admin",
+            "name": "Linux Security & System Administration",
+            "description": "Permissions (chmod/chown), users/groups, bash scripting, log inspection (/var/log), and process management.",
+            "estimatedHours": 14,
+            "difficulty": "Beginner",
+            "keyTopics": ["File permissions & ACLs", "SSH hardening", "Systemd & daemon management", "Bash automation"],
+            "resources": [{ "title": "OverTheWire: Bandit", "type": "Interactive", "url": "https://overthewire.org/wargames/bandit/" }]
+          },
+          {
+            "id": "cy-crypto-basics",
+            "name": "Applied Cryptography & PKI",
+            "description": "Symmetric vs Asymmetric encryption (AES, RSA), hashing algorithms (SHA-256), digital signatures, and SSL certificates.",
+            "estimatedHours": 12,
+            "difficulty": "Beginner",
+            "keyTopics": ["Symmetric/Asymmetric ciphers", "Hashing & salting", "Public Key Infrastructure (PKI)", "Key exchange protocols"],
+            "resources": [{ "title": "CrypTool Portal", "type": "Interactive", "url": "https://www.cryptool.org/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cy-1",
+            "title": "Automated Network Traffic & Port Scanner with Packet Analysis",
+            "description": "Build a network scanner using Python and Scapy that identifies active hosts, open ports, and potential unencrypted credential transfers.",
+            "difficulty": "Beginner",
+            "deliverables": ["Python scanning script", "Wireshark PCAP capture report", "Network topology diagram", "Hardening checklist"],
+            "skillsApplied": ["TCP/IP & Network Protocols", "Linux Security & System Administration", "Applied Cryptography & PKI"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 2,
+        "title": "Defensive Security (Blue Team) & SOC Operations",
+        "level": "Intermediate",
+        "estimatedHours": 45,
+        "description": "Monitor security incidents, analyze malware indicators, and master SIEM tools like Splunk and Wazuh.",
+        "orderedSkills": [
+          {
+            "id": "cy-siem-soc",
+            "name": "SIEM Tools & Log Analysis (Splunk / ELK)",
+            "description": "Ingesting syslog, creating correlation searches, identifying brute-force attempts, and alert triage.",
+            "estimatedHours": 16,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Splunk SPL querying", "Log correlation", "Alert rules", "MITRE ATT&CK mapping"],
+            "resources": [{ "title": "Splunk Free Training", "type": "Course", "url": "https://www.splunk.com/en_us/training.html" }]
+          },
+          {
+            "id": "cy-threat-intel",
+            "name": "Threat Intelligence & MITRE ATT&CK",
+            "description": "Tactics, Techniques, and Procedures (TTPs), IOCs (Indicators of Compromise), YARA rules, and Cyber Kill Chain.",
+            "estimatedHours": 14,
+            "difficulty": "Intermediate",
+            "keyTopics": ["MITRE ATT&CK Framework", "YARA rule writing", "IOC extraction", "Incident response triage"],
+            "resources": [{ "title": "MITRE ATT&CK Navigator", "type": "Interactive", "url": "https://attack.mitre.org/" }]
+          },
+          {
+            "id": "cy-endpoint-defense",
+            "name": "Endpoint Detection & Firewall Hardening",
+            "description": "Configuring iptables/UFW, EDR telemetry, Windows Event logs (Sysmon), and preventing lateral movement.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Sysmon configuration", "Firewall rulesets", "EDR triage", "Privilege escalation monitoring"],
+            "resources": [{ "title": "TryHackMe Blue Team Labs", "type": "Interactive", "url": "https://tryhackme.com/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cy-2",
+            "title": "Home-Lab SOC with Wazuh SIEM & Simulated Attacks",
+            "description": "Set up a virtualized security operations center that detects simulated brute-force and malware execution with automated alerts.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Wazuh SIEM dashboard", "Sysmon detection rules", "Incident response write-up", "IOC catalog"],
+            "skillsApplied": ["SIEM Tools & Log Analysis (Splunk / ELK)", "Threat Intelligence & MITRE ATT&CK", "Endpoint Detection & Firewall Hardening"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 3,
+        "title": "Offensive Security (Red Team) & Ethical Hacking",
+        "level": "Intermediate",
+        "estimatedHours": 50,
+        "description": "Perform authorized penetration tests, exploit web vulnerabilities, and conduct vulnerability assessments.",
+        "orderedSkills": [
+          {
+            "id": "cy-web-appsec",
+            "name": "Web Application Security (OWASP Top 10)",
+            "description": "SQL Injection, Cross-Site Scripting (XSS), CSRF, SSRF, IDOR, and utilizing Burp Suite Professional.",
+            "estimatedHours": 20,
+            "difficulty": "Intermediate",
+            "keyTopics": ["SQL injection exploits", "Stored/Reflected XSS", "Burp Suite Repeater/Intruder", "Authentication bypass"],
+            "resources": [{ "title": "PortSwigger Web Security Academy", "type": "Interactive", "url": "https://portswigger.net/web-security" }]
+          },
+          {
+            "id": "cy-pentesting-tools",
+            "name": "Penetration Testing Tools (Nmap, Metasploit)",
+            "description": "Port enumeration with Nmap, vulnerability scanning, Metasploit exploit modules, and payload creation.",
+            "estimatedHours": 16,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Nmap scripting engine (NSE)", "Metasploit Framework", "Reverse shells", "Privilege escalation"],
+            "resources": [{ "title": "Hack The Box Academy", "type": "Interactive", "url": "https://academy.hackthebox.com/" }]
+          },
+          {
+            "id": "cy-priv-esc",
+            "name": "Privilege Escalation (Linux & Windows)",
+            "description": "Sudo misconfigurations, SUID binaries, cron job vulnerabilities, Windows token impersonation, and potato exploits.",
+            "estimatedHours": 14,
+            "difficulty": "Intermediate",
+            "keyTopics": ["SUID binary abuse", "Capabilities in Linux", "Unquoted service paths", "Token impersonation"],
+            "resources": [{ "title": "PayloadsAllTheThings", "type": "Docs", "url": "https://github.com/swisskyrepo/PayloadsAllTheThings" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cy-3",
+            "title": "Full Penetration Testing Audit Report of Vulnerable Web App",
+            "description": "Perform an authorized penetration test on a vulnerable test target (OWASP Juice Shop), exploiting 5 distinct vulnerability vectors and documenting remediation.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Executive summary report", "Step-by-step reproduction logs", "CVSS v3.1 severity scores", "Remediation code diffs"],
+            "skillsApplied": ["Web Application Security (OWASP Top 10)", "Penetration Testing Tools (Nmap, Metasploit)", "Privilege Escalation (Linux & Windows)"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 4,
+        "title": "Cloud Security, DevSecOps & Incident Response",
+        "level": "Advanced",
+        "estimatedHours": 50,
+        "description": "Secure AWS/Azure cloud environments, implement automated DevSecOps pipelines, and lead incident responses.",
+        "orderedSkills": [
+          {
+            "id": "cy-cloud-sec",
+            "name": "Cloud Security Architecture (AWS / Azure)",
+            "description": "IAM least privilege, CloudTrail audit logs, S3 bucket policies, VPC peering, and security groups.",
+            "estimatedHours": 18,
+            "difficulty": "Advanced",
+            "keyTopics": ["AWS IAM policies", "CloudTrail & GuardDuty", "VPC isolation", "Secrets management"],
+            "resources": [{ "title": "AWS Security Best Practices", "type": "Docs", "url": "https://aws.amazon.com/security/best-practices/" }]
+          },
+          {
+            "id": "cy-devsecops",
+            "name": "DevSecOps & Automated Code Scanning",
+            "description": "SAST (SonarQube), DAST (OWASP ZAP), container scanning (Trivy), and software supply chain security (SBOM).",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["SAST / DAST integration", "Trivy vulnerability scanner", "Secret scanning in git", "CI/CD security gates"],
+            "resources": [{ "title": "OWASP DevSecOps Guideline", "type": "Docs", "url": "https://owasp.org/" }]
+          },
+          {
+            "id": "cy-incident-resp",
+            "name": "Incident Response & Digital Forensics",
+            "description": "Memory forensics with Volatility, disk imaging, timeline analysis, chain of custody, and post-mortem reporting.",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["Volatility memory analysis", "Disk imaging with dd", "Timeline reconstruction", "Root cause post-mortem"],
+            "resources": [{ "title": "SANS Incident Handler's Handbook", "type": "Docs", "url": "https://www.sans.org/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cy-4",
+            "title": "Automated Cloud DevSecOps Pipeline with Trivy & SonarQube",
+            "description": "Implement an automated GitHub Actions security pipeline that blocks insecure pull requests containing hardcoded credentials or vulnerable Docker layers.",
+            "difficulty": "Advanced",
+            "deliverables": ["GitHub Actions security workflow", "Trivy & SAST policy rules", "Security audit report", "Sample vulnerable app fixture"],
+            "skillsApplied": ["Cloud Security Architecture (AWS / Azure)", "DevSecOps & Automated Code Scanning", "Incident Response & Digital Forensics"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cloud-devops",
+    "slug": "cloud-devops",
+    "name": "Cloud & DevOps",
+    "icon": "Cloud",
+    "badge": "High Infrastructure Demand",
+    "shortDescription": "Automate cloud infrastructure, build resilient CI/CD pipelines, and scale containerized clusters.",
+    "fullDescription": "Cloud & DevOps brings agility to engineering teams through Infrastructure as Code, Docker containers, Kubernetes orchestration, continuous delivery pipelines, and cloud observability.",
+    "averageSalary": "$132,000 / yr",
+    "growthRate": "+24% YoY",
+    "difficulty": "Intermediate",
+    "typicalRoles": [
+      "DevOps Engineer",
+      "Site Reliability Engineer (SRE)",
+      "Cloud Solutions Architect",
+      "Platform Engineer"
+    ],
+    "totalEstimatedHours": 195,
+    "stages": [
+      {
+        "stageNumber": 1,
+        "title": "Linux, Scripting & Git Collaboration",
+        "level": "Beginner",
+        "estimatedHours": 40,
+        "description": "Master command-line proficiency, bash automation, YAML formatting, and git trunk-based workflows.",
+        "orderedSkills": [
+          {
+            "id": "cd-linux-internals",
+            "name": "Linux Core & Shell Scripting",
+            "description": "File systems, permissions, grep/sed/awk data pipelines, bash scripting, and process signals.",
+            "estimatedHours": 14,
+            "difficulty": "Beginner",
+            "keyTopics": ["Bash scripting", "Pipes & redirection", "Cron scheduling", "systemd service configuration"],
+            "resources": [{ "title": "Linux Journey", "type": "Interactive", "url": "https://linuxjourney.com/" }]
+          },
+          {
+            "id": "cd-networking-dns",
+            "name": "Networking, DNS & Load Balancing",
+            "description": "IP routing, DNS record types (A, CNAME, MX), reverse proxies (Nginx), and TLS termination.",
+            "estimatedHours": 14,
+            "difficulty": "Beginner",
+            "keyTopics": ["Nginx reverse proxy", "DNS propagation", "SSL/TLS certbot", "Load balancing algorithms"],
+            "resources": [{ "title": "Nginx Documentation", "type": "Docs", "url": "https://nginx.org/en/docs/" }]
+          },
+          {
+            "id": "cd-gitops-basics",
+            "name": "Git Workflow & YAML Standards",
+            "description": "Semantic versioning, git tagging, merge strategies, and strict YAML schema indentation standards.",
+            "estimatedHours": 12,
+            "difficulty": "Beginner",
+            "keyTopics": ["Trunk-based development", "Semantic versioning", "YAML syntax", "Git hooks with Husky"],
+            "resources": [{ "title": "Learn Git Branching", "type": "Interactive", "url": "https://learngitbranching.js.org/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cd-1",
+            "title": "Automated Linux Server Provisioning & Nginx Reverse Proxy",
+            "description": "Write a bash automation suite that provisions a bare Linux virtual machine, configures automated security updates, and serves apps through Nginx with SSL.",
+            "difficulty": "Beginner",
+            "deliverables": ["Bash provisioning script", "Nginx config files", "Automated backup cron job", "UFW firewall configuration"],
+            "skillsApplied": ["Linux Core & Shell Scripting", "Networking, DNS & Load Balancing", "Git Workflow & YAML Standards"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 2,
+        "title": "Containerization with Docker & Compose",
+        "level": "Intermediate",
+        "estimatedHours": 45,
+        "description": "Package applications into immutable, lightweight Docker images and orchestrate multi-tier microservices.",
+        "orderedSkills": [
+          {
+            "id": "cd-docker-core",
+            "name": "Docker Fundamentals & Containerization",
+            "description": "Images vs Containers, Dockerfile instructions, layer caching, volume mounts, and network bridges.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Dockerfile instructions", "Layer caching", "Volumes & Bind mounts", "Bridge & host networks"],
+            "resources": [{ "title": "Docker Curriculum", "type": "Interactive", "url": "https://docker-curriculum.com/" }]
+          },
+          {
+            "id": "cd-docker-compose",
+            "name": "Multi-Container Orchestration (Docker Compose)",
+            "description": "Connecting databases, web servers, and caching layers with docker-compose.yml files and environment variables.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Docker Compose syntax", "Service dependencies", "Healthchecks", "Volume persistence"],
+            "resources": [{ "title": "Docker Compose Docs", "type": "Docs", "url": "https://docs.docker.com/compose/" }]
+          },
+          {
+            "id": "cd-image-hardening",
+            "name": "Multi-Stage Builds & Container Security",
+            "description": "Distroless/Alpine base images, non-root users, vulnerability scanning, and minimizing image footprint.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Multi-stage builds", "Distroless containers", "Non-root execution", "Trivy vulnerability scans"],
+            "resources": [{ "title": "Google Distroless Repo", "type": "Docs", "url": "https://github.com/GoogleContainerTools/distroless" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cd-2",
+            "title": "Hardened Multi-Container Microservices Architecture",
+            "description": "Containerize a full-stack Next.js + Node + Redis + Postgres stack using multi-stage builds, reducing final image sizes by 80% with zero root privileges.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Production docker-compose.yml", "Multi-stage Dockerfiles", "Image security benchmark", "README deployment guide"],
+            "skillsApplied": ["Docker Fundamentals & Containerization", "Multi-Container Orchestration (Docker Compose)", "Multi-Stage Builds & Container Security"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 3,
+        "title": "CI/CD Automation & Infrastructure as Code (Terraform)",
+        "level": "Intermediate",
+        "estimatedHours": 55,
+        "description": "Automate continuous integration pipelines and provision declarative cloud infrastructure using Terraform.",
+        "orderedSkills": [
+          {
+            "id": "cd-cicd-pipelines",
+            "name": "GitHub Actions & CI/CD Pipelines",
+            "description": "Build matrices, artifact caching, secrets management, testing stages, and automated rollback workflows.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Workflow YAML triggers", "GitHub Encrypted Secrets", "Multi-platform build matrices", "Deployment environments"],
+            "resources": [{ "title": "GitHub Actions Documentation", "type": "Docs", "url": "https://docs.github.com/en/actions" }]
+          },
+          {
+            "id": "cd-terraform-iac",
+            "name": "Infrastructure as Code with Terraform",
+            "description": "HCL syntax, state files, providers (AWS/GCP), remote backend storage, modules, and terraform plan/apply cycles.",
+            "estimatedHours": 20,
+            "difficulty": "Intermediate",
+            "keyTopics": ["HCL syntax", "Terraform state locks (S3/DynamoDB)", "Reusable modules", "Variables & outputs"],
+            "resources": [{ "title": "HashiCorp Terraform Tutorials", "type": "Interactive", "url": "https://developer.hashicorp.com/terraform/tutorials" }]
+          },
+          {
+            "id": "cd-cloud-foundations",
+            "name": "AWS Core Services (VPC, EC2, S3, RDS)",
+            "description": "VPC subnets, internet gateways, security groups, EC2 autoscaling, S3 bucket policies, and managed databases.",
+            "estimatedHours": 17,
+            "difficulty": "Intermediate",
+            "keyTopics": ["VPC architecture", "EC2 & Auto Scaling", "S3 & CloudFront CDN", "RDS PostgreSQL"],
+            "resources": [{ "title": "AWS Skill Builder", "type": "Course", "url": "https://skillbuilder.aws/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cd-3",
+            "title": "Production AWS Cloud VPC Provisioned via Terraform Modules",
+            "description": "Write reusable Terraform modules that provision a resilient multi-AZ VPC on AWS with public/private subnets, NAT gateways, and an Application Load Balancer.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Modular Terraform code", "Remote S3 backend with locking", "Cost breakdown estimate", "Architecture diagram"],
+            "skillsApplied": ["GitHub Actions & CI/CD Pipelines", "Infrastructure as Code with Terraform", "AWS Core Services (VPC, EC2, S3, RDS)"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 4,
+        "title": "Kubernetes Orchestration & Observability (SRE)",
+        "level": "Advanced",
+        "estimatedHours": 55,
+        "description": "Deploy scalable applications on Kubernetes, manage Helm charts, and implement Prometheus/Grafana monitoring.",
+        "orderedSkills": [
+          {
+            "id": "cd-k8s-core",
+            "name": "Kubernetes Architecture (Pods, Deployments, Services)",
+            "description": "Control plane, Kubelet, Pods, ReplicaSets, Deployments, ClusterIP/NodePort/LoadBalancer Services, and ConfigMaps.",
+            "estimatedHours": 20,
+            "difficulty": "Advanced",
+            "keyTopics": ["Pod lifecycle", "Rolling updates & rollbacks", "Ingress controllers", "ConfigMaps & Secrets"],
+            "resources": [{ "title": "Kubernetes.io Docs", "type": "Docs", "url": "https://kubernetes.io/docs/home/" }]
+          },
+          {
+            "id": "cd-helm-gitops",
+            "name": "Helm Package Manager & ArgoCD GitOps",
+            "description": "Templating Kubernetes manifests with Helm charts, values.yaml configuration, and continuous GitOps reconciliation.",
+            "estimatedHours": 18,
+            "difficulty": "Advanced",
+            "keyTopics": ["Helm chart templates", "Values overrides", "ArgoCD application sync", "GitOps philosophy"],
+            "resources": [{ "title": "Helm Official Documentation", "type": "Docs", "url": "https://helm.sh/docs/" }]
+          },
+          {
+            "id": "cd-observability",
+            "name": "Observability with Prometheus & Grafana",
+            "description": "Metrics scraping, PromQL queries, Grafana dashboards, alertmanager notifications, and distributed tracing.",
+            "estimatedHours": 17,
+            "difficulty": "Advanced",
+            "keyTopics": ["Prometheus metrics scraping", "PromQL query language", "Grafana alerts & dashboards", "SLIs / SLOs / SLAs"],
+            "resources": [{ "title": "Prometheus Documentation", "type": "Docs", "url": "https://prometheus.io/docs/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-cd-4",
+            "title": "Production Kubernetes Cluster with Helm, ArgoCD & Grafana Monitoring",
+            "description": "Deploy a high-availability microservices cluster using Helm charts, automated ArgoCD GitOps syncing, and Grafana alert dashboards tracking p99 latency.",
+            "difficulty": "Advanced",
+            "deliverables": ["Custom Helm chart repository", "ArgoCD manifest sync setup", "Live Grafana dashboard export", "Disaster recovery playbook"],
+            "skillsApplied": ["Kubernetes Architecture (Pods, Deployments, Services)", "Helm Package Manager & ArgoCD GitOps", "Observability with Prometheus & Grafana"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ui-ux",
+    "slug": "ui-ux",
+    "name": "UI/UX Design",
+    "icon": "Palette",
+    "badge": "High Creative Impact",
+    "shortDescription": "Craft intuitive digital experiences, design systems, interactive prototypes, and user-centric interfaces.",
+    "fullDescription": "UI/UX Design merges human psychology, visual aesthetics, information architecture, and technical usability to build digital products people love using.",
+    "averageSalary": "$105,000 / yr",
+    "growthRate": "+18% YoY",
+    "difficulty": "Beginner Friendly",
+    "typicalRoles": [
+      "Product Designer",
+      "UI/UX Designer",
+      "Design Systems Engineer",
+      "UX Researcher"
+    ],
+    "totalEstimatedHours": 175,
+    "stages": [
+      {
+        "stageNumber": 1,
+        "title": "Design Fundamentals, Typography & Color Theory",
+        "level": "Beginner",
+        "estimatedHours": 35,
+        "description": "Master visual hierarchy, typography scales, contrast ratios, spacing systems, and Gestalt psychology.",
+        "orderedSkills": [
+          {
+            "id": "ui-design-principles",
+            "name": "Visual Hierarchy & Gestalt Principles",
+            "description": "Proximity, similarity, continuity, focal points, whitespace balance, and progressive disclosure.",
+            "estimatedHours": 10,
+            "difficulty": "Beginner",
+            "keyTopics": ["Gestalt psychology", "Visual weight & emphasis", "Whitespace ratio", "Z-pattern & F-pattern reading"],
+            "resources": [{ "title": "Laws of UX", "type": "Interactive", "url": "https://lawsofux.com/" }]
+          },
+          {
+            "id": "ui-typography-color",
+            "name": "Typography & Accessible Color Theory",
+            "description": "Type scales, font pairing, line height, WCAG 2.1 AA/AAA contrast ratios, and cohesive 60-30-10 color palettes.",
+            "estimatedHours": 13,
+            "difficulty": "Beginner",
+            "keyTopics": ["Modular type scales", "Kerning & leading", "WCAG accessibility contrast", "Color harmony & 60-30-10 rule"],
+            "resources": [{ "title": "Refactoring UI", "type": "Docs", "url": "https://www.refactoringui.com/" }]
+          },
+          {
+            "id": "ui-wireframing",
+            "name": "Information Architecture & Wireframing",
+            "description": "User journey maps, low-fidelity wireframing, site maps, and card sorting exercises.",
+            "estimatedHours": 12,
+            "difficulty": "Beginner",
+            "keyTopics": ["User flow diagrams", "Lo-fi wireframing", "Card sorting", "Site navigation structures"],
+            "resources": [{ "title": "Nielsen Norman Group Articles", "type": "Docs", "url": "https://www.nngroup.com/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ui-1",
+            "title": "End-to-End Mobile App Wireframe & User Flow Map",
+            "description": "Design a 10-screen low-fidelity wireframe and complete user journey flow for a mobile personal finance budgeting application.",
+            "difficulty": "Beginner",
+            "deliverables": ["User journey flowchart", "10 low-fi wireframes", "Information architecture sitemap", "Color palette spec sheet"],
+            "skillsApplied": ["Visual Hierarchy & Gestalt Principles", "Typography & Accessible Color Theory", "Information Architecture & Wireframing"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 2,
+        "title": "Figma Mastery & Component Architecture",
+        "level": "Intermediate",
+        "estimatedHours": 45,
+        "description": "Harness Auto Layout 5.0, component variants, interactive states, design tokens, and atomic design systems.",
+        "orderedSkills": [
+          {
+            "id": "ui-figma-autolayout",
+            "name": "Figma Auto Layout & Responsive Constraints",
+            "description": "Nested Auto Layout frames, min/max widths, hugging vs filling, and responsive breakpoint frames.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Auto Layout direction & padding", "Hug vs Fill vs Fixed", "Responsive resizing constraints", "Figma shortcuts"],
+            "resources": [{ "title": "Figma Learn Auto Layout", "type": "Interactive", "url": "https://help.figma.com/hc/en-us/articles/360040451373" }]
+          },
+          {
+            "id": "ui-design-systems",
+            "name": "Design Systems & Component Variants",
+            "description": "Atomic design (atoms, molecules, organisms), master components, boolean/text component properties, and design tokens.",
+            "estimatedHours": 18,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Component properties", "Variants & state sets", "Design tokens (spacing, color, elevation)", "Component documentation"],
+            "resources": [{ "title": "Design Systems Repo", "type": "Docs", "url": "https://designsystemsrepo.com/" }]
+          },
+          {
+            "id": "ui-microinteractions",
+            "name": "Micro-Animations & Smart Animate",
+            "description": "Creating delightful button hover states, modal transitions, skeleton loaders, and interactive Figma Smart Animate flows.",
+            "estimatedHours": 12,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Smart Animate timing curves", "Interactive components", "Loader micro-animations", "Mobile gesture physics"],
+            "resources": [{ "title": "Figma Prototyping Guide", "type": "Docs", "url": "https://help.figma.com/hc/en-us/articles/360040314193" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ui-2",
+            "title": "Comprehensive Atomic Design System & Component Library",
+            "description": "Build a scalable Figma design system with 25+ accessible components, interactive variant states (default, hover, focus, disabled), and dark mode tokens.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Figma community design system file", "Interactive component matrix", "Design token variables table", "Style guide documentation"],
+            "skillsApplied": ["Figma Auto Layout & Responsive Constraints", "Design Systems & Component Variants", "Micro-Animations & Smart Animate"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 3,
+        "title": "UX Research, Usability Testing & Analytics",
+        "level": "Intermediate",
+        "estimatedHours": 45,
+        "description": "Conduct qualitative user interviews, run unmoderated usability tests, and synthesize data into personas.",
+        "orderedSkills": [
+          {
+            "id": "ui-user-research",
+            "name": "User Interviews & Persona Development",
+            "description": "Writing unbiased interview scripts, recruiting participants, empathy mapping, and data-backed persona creation.",
+            "estimatedHours": 15,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Qualitative interviewing", "Empathy mapping", "User personas & pain points", "Synthesis with affinity diagrams"],
+            "resources": [{ "title": "Just Enough Research by Erika Hall", "type": "Docs", "url": "https://abookapart.com/products/just-enough-research" }]
+          },
+          {
+            "id": "ui-usability-testing",
+            "name": "Usability Testing & Heuristic Evaluation",
+            "description": "Running 5-user usability protocols, Jakob Nielsen's 10 usability heuristics, and System Usability Scale (SUS) benchmarking.",
+            "estimatedHours": 16,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Heuristic evaluation", "Usability test protocol scripts", "Task completion rates", "System Usability Scale (SUS)"],
+            "resources": [{ "title": "NN/g 10 Usability Heuristics", "type": "Docs", "url": "https://www.nngroup.com/articles/ten-usability-heuristics/" }]
+          },
+          {
+            "id": "ui-ux-metrics",
+            "name": "UX Metrics & Behavioral Analytics",
+            "description": "Analyzing heatmaps (Hotjar), session recordings, drop-off funnels, A/B test result evaluation, and HEART framework.",
+            "estimatedHours": 14,
+            "difficulty": "Intermediate",
+            "keyTopics": ["Google HEART framework", "Drop-off funnel analysis", "Heatmap analysis", "A/B testing for designers"],
+            "resources": [{ "title": "Google HEART Framework", "type": "Docs", "url": "https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f4605fde7be" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ui-3",
+            "title": "Usability Audit & Redesign Case Study of a SaaS Product",
+            "description": "Perform a heuristic evaluation and 5-user usability test on an existing web application, producing an evidence-backed UX case study.",
+            "difficulty": "Intermediate",
+            "deliverables": ["Usability findings video summaries", "Before & after UI redesigns", "Heuristic score sheet", "Case study presentation deck"],
+            "skillsApplied": ["User Interviews & Persona Development", "Usability Testing & Heuristic Evaluation", "UX Metrics & Behavioral Analytics"]
+          }
+        ]
+      },
+      {
+        "stageNumber": 4,
+        "title": "Interactive Prototyping & Developer Handoff",
+        "level": "Advanced",
+        "estimatedHours": 50,
+        "description": "Produce high-fidelity clickable prototypes, spec sheets, developer tokens, and accessibility compliance audits.",
+        "orderedSkills": [
+          {
+            "id": "ui-advanced-prototyping",
+            "name": "High-Fidelity Prototyping & Variables",
+            "description": "Figma conditional logic, string/number variables, interactive carts, dynamic forms, and responsive viewport testing.",
+            "estimatedHours": 18,
+            "difficulty": "Advanced",
+            "keyTopics": ["Figma variables & expressions", "Conditional logic prototypes", "Scroll animations", "Responsive device testing"],
+            "resources": [{ "title": "Figma Advanced Prototyping", "type": "Interactive", "url": "https://help.figma.com/hc/en-us/articles/14561087287703" }]
+          },
+          {
+            "id": "ui-dev-handoff",
+            "name": "Developer Handoff & Token Export",
+            "description": "Figma Dev Mode, CSS inspection, exporting tokens to JSON/Tailwind configuration, and asset management.",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["Figma Dev Mode", "Token export to Tailwind", "Asset export specifications", "Design QA review process"],
+            "resources": [{ "title": "Figma Dev Mode Guide", "type": "Docs", "url": "https://help.figma.com/hc/en-us/articles/15023124644247" }]
+          },
+          {
+            "id": "ui-a11y-audit",
+            "name": "Accessibility Auditing (WCAG Compliance)",
+            "description": "Screen reader flow annotations, focus states, keyboard navigation guidelines, and automated a11y Figma plugins.",
+            "estimatedHours": 16,
+            "difficulty": "Advanced",
+            "keyTopics": ["Screen reader focus order", "A11y annotation kits", "Accessible touch targets (48x48px)", "Color blindness simulation"],
+            "resources": [{ "title": "W3C Web Accessibility Initiative", "type": "Docs", "url": "https://www.w3.org/WAI/" }]
+          }
+        ],
+        "suggestedProjects": [
+          {
+            "id": "proj-ui-4",
+            "title": "Full-Fidelity Flagship SaaS Experience with Interactive Logic",
+            "description": "Design an interactive desktop and mobile web app in Figma utilizing variables, conditional cart flows, developer-ready token exports, and WCAG AA compliance.",
+            "difficulty": "Advanced",
+            "deliverables": ["Interactive clickable prototype link", "Exported Tailwind color & spacing tokens", "A11y annotation spec", "Handoff video walkthrough"],
+            "skillsApplied": ["High-Fidelity Prototyping & Variables", "Developer Handoff & Token Export", "Accessibility Auditing (WCAG Compliance)"]
+          }
+        ]
+      }
+    ]
+  }
+]
